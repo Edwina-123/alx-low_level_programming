@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE=2-main.c
+export CFILE=2-main.c main.c ; ./2-assembler 
