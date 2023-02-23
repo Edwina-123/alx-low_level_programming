@@ -1,23 +1,23 @@
-#include "main.h"
+#include "holberton.h"
 /**
- * print_diagonal -draws a diagonal line on the terminal
- * @n: the number of times that the special character must be print
+ * print_square - prints a square
+ * @size: size of the square
  *
- * Return: a diagonal
+ *
+ * Return: a square
  */
-void print_diagonal(int n)
+void print_square(int size)
 {
 	int a, b;
 
-	if (n > 0)
+	if (size > 0)
 	{
-		for (a = 0 ; a < n ; a++)
+		for (a = 0 ; a < size ; a++)
 		{
-			for (b = 0 ; b < a ; b++)
+			for (b = 0 ; b < size ; b++)
 			{
-				_putchar(' ');
+				_putchar(35);
 			}
-			_putchar(92);
 			_putchar('\n');
 		}
 	}
